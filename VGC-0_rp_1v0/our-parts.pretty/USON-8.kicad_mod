@@ -1,0 +1,208 @@
+(footprint "USON-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa249fcd-aac1-40a8-a573-649fa34df579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USON-8"
+		(at -0.1 9.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ddf907a-cb8c-48b6-9ceb-0c93aad4c12b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d3e45e-8b03-464b-abee-533f1c929d20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e1bbd77-25a8-433e-a41a-a7d959ab0bd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec3f2bc8-c371-4a1b-90b4-52551e1270f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.65 -1.15)
+		(end 1.65 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c4e3d7dd-c2f9-4ecf-b210-20d9cadc31b0")
+	)
+	(fp_circle
+		(center -2 -0.780277)
+		(end -2.15 -0.680277)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fc0ed863-83e9-4872-98e8-1b37bdf67b6f")
+	)
+	(fp_line
+		(start 0 -1)
+		(end 0 -0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "a9ac9fee-962d-4dcc-b8d2-cf77cb5482ab")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1.5 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "7770ac46-7c95-4dc1-8690-479e77406125")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "d96b3607-fdbd-4299-afbf-59f3350bbbc8")
+	)
+	(fp_rect
+		(start -1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "abe3e0bc-0a34-42d8-9828-1279716f88a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aff65b2b-5da1-46a3-aaf2-b3c45f04a31c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 -0.75 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2d83e06f-9a7d-46f2-b97e-f789489b3cc4")
+	)
+	(pad "2" smd rect
+		(at -1.1 -0.25 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fa8b3383-81b2-4104-9cc8-237f35d6078a")
+	)
+	(pad "3" smd rect
+		(at -1.1 0.25 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "4a488080-96e7-4e54-b047-eb9af515b871")
+	)
+	(pad "4" smd rect
+		(at -1.1 0.75 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8b711e75-9dcf-43eb-9176-aeddd7132662")
+	)
+	(pad "5" smd rect
+		(at 1.1 0.75 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9bd2522c-5843-4531-97c5-deda782d6a82")
+	)
+	(pad "6" smd rect
+		(at 1.1 0.25 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f6f84dba-2b47-4eaf-abf9-102619077134")
+	)
+	(pad "7" smd rect
+		(at 1.1 -0.25 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "779df0b6-bb65-4db2-a7c9-25a34de1738a")
+	)
+	(pad "8" smd rect
+		(at 1.1 -0.75 90)
+		(size 0.25 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c9c16629-6d26-4f2a-a9c4-b3a80127fa6e")
+	)
+	(pad "nc" smd rect
+		(at 0 0 180)
+		(size 0.2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b52aefb9-7df5-4482-8c73-d5b01cd90a35")
+	)
+)

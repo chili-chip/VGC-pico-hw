@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RP2350_60QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/VGC-0_rp_1v0.pretty")(options "")(descr ""))
+  (lib (name "our-parts")(type "KiCad")(uri "${KIPRJMOD}/our-parts.pretty")(options "")(descr ""))
+)
