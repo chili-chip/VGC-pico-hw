@@ -7,7 +7,7 @@
 	(title_block
 		(title "VGC-0-rpi")
 		(date "2025-08-08")
-		(rev "REV2")
+		(rev "2")
 		(company "Chili Chip")
 		(comment 1 "This is a prototype")
 		(comment 2 "meow")
@@ -5942,20 +5942,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.112 0)
+			(property "Reference" "U2"
+				(at 4.7341 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "RT6154A"
-				(at 0 3.556 0)
+				(at 4.7341 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:DFN-14-1EP_3x4mm_P0.5mm_EP1.7x3.3mm"
@@ -5995,24 +5997,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin input line
-					(at 2.54 -16.51 90)
-					(length 2.54)
-					(name "P-GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -6116,6 +6100,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -16.51 90)
+					(length 2.54)
+					(name "P-GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14035,7 +14037,7 @@
 	)
 	(text "TO DO: \n- add ID to 100nF caps\n- add footprint to J1"
 		(exclude_from_sim no)
-		(at 474.726 378.968 0)
+		(at 474.98 380.238 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20576,75 +20578,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 54.61 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c832d38-3858-4fc0-a457-306fc883285b")
-		(property "Reference" "C31"
-			(at 61.468 188.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 62.484 185.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.6448 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1d3f0dc-945d-4b85-a8c5-372ddda6ce60")
-		)
-		(pin "2"
-			(uuid "78fde9a7-d837-4a2e-90a3-2ae109daec34")
-		)
-		(instances
-			(project "VGC-0_rp_1v0"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 532.13 135.89 0)
 		(unit 1)
@@ -21874,6 +21807,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 54.61 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61cd63a9-7ded-4df4-8d18-1741c5e95859")
+		(property "Reference" "C31"
+			(at 51.689 187.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 51.689 185.547 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 53.6448 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fd06e5-fd10-490c-aa57-e3f4b69027d1")
+		)
+		(pin "2"
+			(uuid "cd9da902-3206-4392-90bc-5a647384609f")
+		)
+		(instances
+			(project "VGC-0_rp_1v0"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 190.5 0)
 		(unit 1)
@@ -22685,7 +22687,7 @@
 		(pin "9"
 			(uuid "449dff98-d1b6-4a3b-ae68-1f4381447dd9")
 		)
-		(pin ""
+		(pin "15"
 			(uuid "3a4b2dfd-978f-49f6-b916-735344feecad")
 		)
 		(pin "12"

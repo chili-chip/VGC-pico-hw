@@ -1,4 +1,4 @@
-23064004640355946
+23065759236336285
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94430,6 +94430,13 @@ our-parts
 2
 2
 our-parts
+2.54mm-10PIN
+
+
+0
+10
+10
+our-parts
 8x8-tht-button
 
 
@@ -94462,8 +94469,8 @@ SMD-solder-pad-2x
 
 
 0
-0
-0
+2
+2
 our-parts
 THT-SPI-LCD
 
