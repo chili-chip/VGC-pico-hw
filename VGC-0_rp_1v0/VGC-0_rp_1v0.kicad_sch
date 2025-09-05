@@ -5548,7 +5548,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "2,3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -23829,7 +23829,7 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "2,3"
 			(uuid "fd8b2c40-40d8-4b26-b288-95c756d25d56")
 		)
 		(pin "4"

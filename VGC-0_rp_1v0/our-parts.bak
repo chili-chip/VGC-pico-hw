@@ -863,6 +863,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 13.97 1.27 180)
+				(length 2.54)
+				(name "BATT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input inverted
 				(at -13.97 5.08 0)
 				(length 2.54)
